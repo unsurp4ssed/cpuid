@@ -38,7 +38,7 @@
       <x>0</x>
       <y>0</y>
       <width>501</width>
-      <height>511</height>
+      <height>521</height>
      </rect>
     </property>
     <property name="tabShape">
@@ -104,7 +104,7 @@
      <attribute name="title">
       <string>Intructions</string>
      </attribute>
-     <widget class="QLCDNumber" name="lcdNumberOfInstructions">
+     <widget class="QLCDNumber" name="lcdNumber_OfInstructions">
       <property name="geometry">
        <rect>
         <x>420</x>
@@ -112,6 +112,26 @@
         <width>64</width>
         <height>23</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+      <property name="intValue" stdset="0">
+       <number>0</number>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
@@ -140,7 +160,7 @@
        <string>Info</string>
       </property>
       <property name="flat">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
       <property name="checkable">
        <bool>false</bool>
@@ -161,6 +181,7 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;store this stuff in a json&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ig&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
