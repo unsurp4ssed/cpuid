@@ -21,6 +21,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        cpuinfo.h
+        cpuinfo.cpp
         ${TS_FILES}
 )
 

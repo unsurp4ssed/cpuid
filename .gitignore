@@ -72,4 +72,4 @@ cmake-build-debug
 *.dll
 *.exe
 *.out
-*/elf
+*.elf
